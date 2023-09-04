@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapFragment">
+    <LinearLayout
+        android:id="@+id/ll_top1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:queryHint="Search here...."
+            android:elevation="5dp"
+            android:background="@drawable/search"
+            android:id="@+id/searchViewMap"
+            android:iconifiedByDefault="false"/>
+    </LinearLayout>
+
+    <fragment
+        android:layout_below="@+id/ll_top1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/googleMap"
+        android:layout_above="@+id/adView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        ads:adUnitId="@string/banner_ads_id"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "639018836925",
+    "project_id": "beerbudy-30852",
+    "storage_bucket": "beerbudy-30852.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639018836925:android:8a400a0e03c858f69fe8d4",
+        "android_client_info": {
+          "package_name": "com.example.beerbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639018836925-1bseq5bsgmaq6a9qg3vb4vuic7v9a1d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzDnOPcyamSgtsdhx0hdmhBWbbVLTXNYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639018836925-1bseq5bsgmaq6a9qg3vb4vuic7v9a1d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639018836925:android:7f73a7c5e2b7d6429fe8d4",
+        "android_client_info": {
+          "package_name": "com.example.beerbuddy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639018836925-1bseq5bsgmaq6a9qg3vb4vuic7v9a1d2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzDnOPcyamSgtsdhx0hdmhBWbbVLTXNYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639018836925-1bseq5bsgmaq6a9qg3vb4vuic7v9a1d2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
